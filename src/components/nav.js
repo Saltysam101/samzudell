@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import '../nav.css';
 
 export default class Nav extends Component {
+
+
     render() {
+
         return (
             <div className="nav">
                 <div className="tab">
@@ -11,24 +14,20 @@ export default class Nav extends Component {
                     <h3 className="my-role">Web Developer</h3>
                 </div>
                 <ul className="nav-links">
-                    <Link to="/">
-                        <li>
-                            Home 
-                        </li>
-                    </Link>
-                    <Link to="/about">
-                        <li>
-                            About 
-                        </li>
-                    </Link>
-                    <Link to="/contact">
-                        <li>
-                            Contact 
-                        </li>
-                    </Link>
+                    <NavLink to="/" exact activeClassName="isActive">
+                        Home
+                    </NavLink>
+                    <NavLink to="/about" activeClassName="isActive">
+                        About
+                    </NavLink>
+                    <NavLink to="/contact" activeClassName="isActive">
+                        Contact
+                    </NavLink>
                 </ul>
                 
             </div>
         )
     }
 }
+
+
