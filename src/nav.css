@@ -1,6 +1,9 @@
+
+
 .tab{
     width: 250px;
     height: 75px;
+    background-color: white;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 5px;
@@ -14,26 +17,32 @@
 .my-name{
     text-align: center;
     margin: 0;
+    font-family: nunito;
 }
 
 .my-role{
     text-align: center;
     margin: 0;
+    font-family: nunito;
 }
 
 .nav-links{
-    width: 50%;
+    width: 25%;
     margin-left: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    margin-right: 45px;
 }
 
 .isActive{
     font-weight: bold;
-    color: blue;
+    color: #00B1FF;
 }
 
 a{
     text-decoration: none;
+    font-family: nunito;
+    font-size: 1.25em;
+    color: black;
 }
