@@ -1,23 +1,31 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
+import '../nav.css';
 
-export default class nav extends Component {
+export default class Nav extends Component {
     render() {
         return (
-            <div>
+            <div className="nav">
                 <div className="tab">
                     <h1>Samuel Zudell</h1>
                     <h3>Web Developer</h3>
                 </div>
                 <ul className="nav-links">
-                    <li>
-                        <a href="">Home</a>
-                    </li>
-                    <li>
-                        <a href="">About</a>
-                    </li>
-                    <li>
-                        <a href="">Contact</a>
-                    </li>
+                    <Link to="/">
+                        <li>
+                            Home 
+                        </li>
+                    </Link>
+                    <Link to="/about">
+                        <li>
+                            About 
+                        </li>
+                    </Link>
+                    <Link to="/contact">
+                        <li>
+                            Contact 
+                        </li>
+                    </Link>
                 </ul>
                 
             </div>
