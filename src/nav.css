@@ -1,10 +1,24 @@
 .tab{
-    width: auto;
+    width: 250px;
+    height: 75px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-left: 30px;
+    justify-content: center;
+}
+
+.my-name{
     text-align: center;
+    margin: 0;
+}
+
+.my-role{
+    text-align: center;
+    margin: 0;
 }
 
 .nav-links{
