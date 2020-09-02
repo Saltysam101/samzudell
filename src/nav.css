@@ -1,5 +1,3 @@
-
-
 .tab{
     width: 250px;
     height: 75px;
@@ -12,6 +10,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: rgb(252, 243, 223);
+    z-index: 5;
 }
 
 .my-name{
@@ -33,6 +33,7 @@
     justify-content: space-between;
     align-items: center;
     margin-right: 45px;
+    z-index: 5;
 }
 
 .isActive{
@@ -45,4 +46,5 @@ a{
     font-family: nunito;
     font-size: 1.25em;
     color: black;
+    z-index: 5;
 }
