@@ -15,6 +15,21 @@
     font-size: 2.75em;
 }
 
+.hero-git-title{
+    margin-left: 30px;
+    margin-top: 10%;
+}
+
+.hero-git-link{
+    z-index: 6;
+    position: absolute;
+}
+
+.hero-git-icon{
+    margin-left: 10px;
+    z-index: 5;
+}
+
 .hero-page{
     height: 80vh;
 }
