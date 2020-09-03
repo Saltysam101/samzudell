@@ -3,6 +3,9 @@ import '../home.css';
 import image from '../Assets/damian-zaleski-RYyr-k3Ysqg-unsplash(1).png';
 import icon from '../Assets/iconfinder_github-social-media_765246(1).png';
 import { Link } from 'react-router-dom';
+import currentWeather from '../Assets/currentweather.png';
+import petsy from '../Assets/petsy.png';
+import chatme from '../Assets/chatme.png';
 
 export default class Home extends Component {
     render() {
@@ -21,28 +24,28 @@ export default class Home extends Component {
                     </div>
                 </div>
                 <div className="project-section">
-                    <h2>Projects</h2>
+                    <h2 className="section-title">Projects</h2>
                     <div className="project-container">
                         <div className="project-item">
                             <h3 className="project-name">Current Weather</h3>
-                            <Link>
-                                <img src="" alt=""/>
+                            <Link target="_blank" to={"//www.currentweathertemp.com/"}>
+                                <img src={currentWeather} alt=""/>
                             </Link>
                             <p className="project-description"></p>
                             <button className="see-code">See Code</button>
                         </div>
                         <div className="project-item">
                             <h3 className="project-name">Petsy</h3>
-                            <Link>
-                                <img src="" alt=""/>
+                            <Link target="_blank" to={"//www.dogsstuff.net/"}>
+                                <img src={petsy} alt=""/>
                             </Link>
                             <p className="project-description"></p>
                             <button className="see-code">See Code</button>
                         </div>
                         <div className="project-item">
                             <h3 className="project-name">ChatMe</h3>
-                            <Link>
-                                <img src="" alt=""/>
+                            <Link target="_blank" to={"//chatmeapp.net/"}>
+                                <img src={chatme} alt=""/>
                             </Link>
                             <p className="project-description"></p>
                             <button className="see-code">See Code</button>

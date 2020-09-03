@@ -48,3 +48,17 @@
 .hero-page{
     height: 60vh;
 }
+
+.section-title{
+    margin-top: 180px;
+}
+
+.project-section{
+    margin-left: 30px;
+}
+
+.project-container{
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-evenly;
+}
