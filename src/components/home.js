@@ -32,7 +32,9 @@ export default class Home extends Component {
                                 <img src={currentWeather} alt=""/>
                             </Link>
                             <p className="project-description"></p>
-                            <button className="see-code">See Code</button>
+                            <Link target="_blank" to={"//github.com/Saltysam101/weather-js"}>
+                                <button className="see-code">See Code</button>
+                            </Link>
                         </div>
                         <div className="project-item">
                             <h3 className="project-name">Petsy</h3>
@@ -40,7 +42,9 @@ export default class Home extends Component {
                                 <img src={petsy} alt=""/>
                             </Link>
                             <p className="project-description"></p>
-                            <button className="see-code">See Code</button>
+                            <Link target="_blank" to={"//github.com/Saltysam101/petsy"}>
+                                <button className="see-code">See Code</button>
+                            </Link>
                         </div>
                         <div className="project-item">
                             <h3 className="project-name">ChatMe</h3>
@@ -48,11 +52,15 @@ export default class Home extends Component {
                                 <img src={chatme} alt=""/>
                             </Link>
                             <p className="project-description"></p>
-                            <button className="see-code">See Code</button>
+                            <Link target="_blank" to={"//github.com/Saltysam101/ChatMe"}>
+                                <button className="see-code">See Code</button>
+                            </Link>
                         </div>
                     </div>
 
                 </div>
+                <br/>
+                <br/>
 
             </div>
         )

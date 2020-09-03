@@ -62,3 +62,19 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.see-code{
+    height: 50px;
+    width: 150px;
+    font-size: 0.75em;
+    background-color: #00B1FF;
+    border-color: #00B1FF;
+    color: white;
+}
+
+.see-code:hover{
+    cursor: pointer;
+    color: #00B1FF;
+    background-color: white;
+    font-weight: bold;
+}
