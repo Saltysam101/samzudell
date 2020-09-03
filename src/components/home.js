@@ -10,12 +10,47 @@ export default class Home extends Component {
             <div>
                 <div className="hero-page">
                     <img className="hero-bg-img" src={image} alt=""/>
-                    <h1 className="hero-stmt">I can help expand your interests with a website!</h1>
-                    <h3 className="hero-git-title">My Github:</h3>
-                    <Link className="hero-git-link" target="_blank" to={"//github.com/Saltysam101"}>
-                        <img className="hero-git-icon" src={icon} alt=""/>
-                    </Link>
+                    <div className="hero-info">
+                        <h1 className="hero-stmt">I can help expand your interests with a website!</h1>
+                        <div className="git-container">
+                            <h3 className="hero-git-title">My Github:</h3>
+                            <Link className="hero-git-link" target="_blank" to={"//github.com/Saltysam101"}>
+                                <img className="hero-git-icon" src={icon} alt=""/>
+                            </Link>
+                        </div>
+                    </div>
                 </div>
+                <div className="project-section">
+                    <h2>Projects</h2>
+                    <div className="project-container">
+                        <div className="project-item">
+                            <h3 className="project-name">Current Weather</h3>
+                            <Link>
+                                <img src="" alt=""/>
+                            </Link>
+                            <p className="project-description"></p>
+                            <button className="see-code">See Code</button>
+                        </div>
+                        <div className="project-item">
+                            <h3 className="project-name">Petsy</h3>
+                            <Link>
+                                <img src="" alt=""/>
+                            </Link>
+                            <p className="project-description"></p>
+                            <button className="see-code">See Code</button>
+                        </div>
+                        <div className="project-item">
+                            <h3 className="project-name">ChatMe</h3>
+                            <Link>
+                                <img src="" alt=""/>
+                            </Link>
+                            <p className="project-description"></p>
+                            <button className="see-code">See Code</button>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
         )
     }
