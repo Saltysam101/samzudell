@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import currentWeather from '../Assets/currentweather.png';
 import petsy from '../Assets/petsy.png';
 import chatme from '../Assets/chatme.png';
+import contactImage from '../Assets/contactpic.png';
 
 export default class Home extends Component {
     render() {
@@ -58,7 +59,7 @@ export default class Home extends Component {
                                 <img src={chatme} alt=""/>
                             </Link>
                             <div className="div">
-                                <p className="project-description">ChatMe is a basic realtime chat site. You can create an account and just chat with anyone who is on there. There no seperate groups for different chats, it's all just one chat.</p>
+                                <p className="project-description">ChatMe is a basic realtime chat site. You can create an account and just chat with anyone who is on there. There are no seperate groups for different chats, it's all just one chat.</p>
                                 <Link className="git-link" target="_blank" to={"//github.com/Saltysam101/ChatMe"}>
                                     <button className="see-code">See Code</button>
                                 </Link>
@@ -67,8 +68,15 @@ export default class Home extends Component {
                     </div>
 
                 </div>
-                <br/>
-                <br/>
+                <div className="contact-section">
+                    <img className="contact-img" src={contactImage} alt=""/>
+                   <div className="contact-info">
+                    <h2 className="contact-stmt">If you like what you see, contact me below!</h2>
+                        <Link className="contact-link" to="/contact">
+                            <button className="contact-btn">Contact</button>
+                        </Link>
+                   </div>
+                </div>
 
             </div>
         )

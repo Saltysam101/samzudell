@@ -69,7 +69,7 @@
     height: 575px;
 }
 
-.project-title{
+.project-name{
     font-family: nunito;
 }
 
@@ -101,6 +101,53 @@
 }
 
 .see-code:hover{
+    cursor: pointer;
+    color: #00B1FF;
+    background-color: white;
+    font-weight: bold;
+}
+
+.contact-section{
+    margin-top: 180px;
+}
+
+.contact-img{
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+}
+
+.contact-info{
+    margin-left: 30px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-stmt{
+    z-index: 5;
+    font-size: 2.75em;
+    width: 50%;
+}
+
+.contact-link{
+    z-index: 5;
+    margin-top: 50px;
+}
+
+.contact-btn{
+    z-index: 5;
+    height: 50px;
+    width: 150px;
+    font-size: 0.75em;
+    background-color: #00B1FF;
+    border-color: #00B1FF;
+    color: white;
+    letter-spacing: 0.25em;
+}
+
+.contact-btn:hover{
     cursor: pointer;
     color: #00B1FF;
     background-color: white;
