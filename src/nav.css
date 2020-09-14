@@ -1,3 +1,95 @@
+/*mobile*/
+.tab{
+    width: 125px;
+    height: 50px;
+    background-color: white;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(252, 243, 223);
+    z-index: 5;
+}
+.my-name{
+    text-align: center;
+    margin: 0;
+    font-family: nunito;
+    font-size: 1em;
+}
+
+.my-role{
+    text-align: center;
+    margin: 0;
+    font-family: nunito;
+    font-size: 0.75em;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hamburger{
+    height: 30px;
+    width: 30px;
+    z-index: 5;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.line{
+    height: 3px;
+    width: 30px;
+    background-color: black;
+    margin: 5px;
+
+}
+
+.nav-links{
+    list-style: none;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100vh;
+    clip-path: rect(10px 30px at 90% -10%);
+    -webkit-clip-path: rect(10px 30px at 90% -10%);
+    transition: 1s ease-out;
+    background-color: black;
+    pointer-events: none;
+   display: none;
+}
+
+.nav-links.open{
+  clip-path: rect(10px 30px at 90% -10%);
+  -webkit-clip-path: rect(10px 30px at 90% -10%);
+  pointer-events: all;
+  z-index: 5;
+}
+
+.isActive{
+    font-weight: bold;
+    color: #00B1FF;
+}
+
+a{
+    text-decoration: none;
+    font-family: nunito;
+    font-size: 1.5em;
+    color: black;
+    z-index: 5;
+}
+
+
+/*Desktop*/
+@media only screen and (min-width: 1050px){
 .nav{
     z-index: 5;
     display: flex;
@@ -52,4 +144,5 @@ a{
     font-size: 1.5em;
     color: black;
     z-index: 5;
+}
 }

@@ -24,6 +24,11 @@ export default class Nav extends Component {
                         Contact
                     </NavLink>
                 </ul>
+                <div className="hamburger">
+                        <div className="line"></div>
+                        <div className="line"></div>
+                        <div className="line"></div>
+                    </div>
                 
             </div>
         )

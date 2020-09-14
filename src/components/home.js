@@ -30,7 +30,7 @@ export default class Home extends Component {
                         <div className="project-item">
                             <h3 className="project-name">Current Weather</h3>
                             <Link target="_blank" to={"//www.currentweathertemp.com/"}>
-                                <img src={currentWeather} alt=""/>
+                                <img className="project-img" src={currentWeather} alt=""/>
                             </Link>
                             <div className="div">
                                 <p className="project-description">
@@ -44,7 +44,7 @@ export default class Home extends Component {
                         <div className="project-item">
                             <h3 className="project-name">Petsy</h3>
                             <Link target="_blank" to={"//www.dogsstuff.net/"}>
-                                <img src={petsy} alt=""/>
+                                <img className="project-img" src={petsy} alt=""/>
                             </Link>
                             <div className="div">
                                 <p className="project-description">Petsy is a make-believe dog store. It sells different brands of dog food and dog toys. When you click the 'add to cart' button, it adds it to the cart and if you want more than just one of that item, you can adjust the quantity in the cart. The total should update to adding items and adjustments to the quantities. Finally, when you click the 'checkout' button, an alert will pop up and let you know your "purchase" went through and it will clear the cart.</p>
@@ -56,7 +56,7 @@ export default class Home extends Component {
                         <div className="project-item">
                             <h3 className="project-name">ChatMe</h3>
                             <Link target="_blank" to={"//chatmeapp.net/"}>
-                                <img src={chatme} alt=""/>
+                                <img className="project-img" src={chatme} alt=""/>
                             </Link>
                             <div className="div">
                                 <p className="project-description">ChatMe is a basic realtime chat site. You can create an account and just chat with anyone who is on there. There are no seperate groups for different chats, it's all just one chat.</p>
