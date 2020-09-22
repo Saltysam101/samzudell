@@ -1,13 +1,21 @@
-import React, { Component, SetState } from 'react';
+import React from 'react';
 import {NavLink} from 'react-router-dom';
 import '../nav.css';
 
-export default class Nav extends Component {
+export default class Nav extends React.Component {
+
+        state = { condition: false };
     
+    
+    
+
+    handleClick() {
+        this.setState({condition: !this.state.condition})
+    }
 
     render() {
 
-
+        const menu = this.state.condition ? "nav-links-toggled" : "nav-links"
 
         return (
             <div className="nav">
@@ -15,7 +23,7 @@ export default class Nav extends Component {
                     <h1 className="my-name">Samuel Zudell</h1>
                     <h3 className="my-role">Web Developer</h3>
                 </div>
-                <ul className="nav-links">
+                <ul className={menu}>
                     <NavLink to="/" exact activeClassName="isActive">
                         Home
                     </NavLink>
@@ -26,7 +34,7 @@ export default class Nav extends Component {
                         Contact
                     </NavLink>
                 </ul>
-                <div className="hamburger">
+                <div onClick={() => this.handleClick()} className="hamburger">
                         <div className="line"></div>
                         <div className="line"></div>
                         <div className="line"></div>
