@@ -24,13 +24,13 @@ export default class Nav extends React.Component {
                     <h3 className="my-role">Web Developer</h3>
                 </div>
                 <ul className={menu}>
-                    <NavLink to="/" exact activeClassName="isActive">
+                    <NavLink onClick={() => this.handleClick()} to="/" exact activeClassName="isActive">
                         Home
                     </NavLink>
-                    <NavLink to="/about" activeClassName="isActive">
+                    <NavLink onClick={() => this.handleClick()} to="/about" activeClassName="isActive">
                         About
                     </NavLink>
-                    <NavLink to="/contact" activeClassName="isActive">
+                    <NavLink onClick={() => this.handleClick()} to="/contact" activeClassName="isActive">
                         Contact
                     </NavLink>
                 </ul>

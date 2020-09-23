@@ -31,6 +31,7 @@
 .nav{
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .hamburger{
@@ -58,13 +59,12 @@
     list-style: none;
     position: absolute;
     top: -2.5%;
-    left: 0%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    width: 91.8%;
-    height: 100%;
+    width: 89%;
+    height: 102vh;
     transition: 1s ease-out;
     background-color: lightgray;
     pointer-events: all;
