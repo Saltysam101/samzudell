@@ -87,6 +87,10 @@ a{
 
 /*Desktop*/
 @media only screen and (min-width: 1050px){
+.hamburger{
+    display: none;
+}
+
 .nav{
     z-index: 5;
     display: flex;
