@@ -5,9 +5,17 @@ import '../styles/nav.css';
 export default class Nav extends React.Component {
 
         state = { condition: false };
+        hamburger = React.createRef();
     
-    
-    
+    isVisible(){
+       const style = getComputedStyle(this.hamburger.current);
+       if(style.visibility === "hidden"){
+           return false
+       }
+       else{
+           this.handleClick();
+       }
+    }
 
     handleClick() {
         this.setState({condition: !this.state.condition})
@@ -24,17 +32,17 @@ export default class Nav extends React.Component {
                     <h3 className="my-role">Web Developer</h3>
                 </div>
                 <ul className={menu}>
-                    <NavLink onClick={() => this.handleClick()} to="/" exact activeClassName="isActive">
+                    <NavLink onClick={() => this.isVisible()} to="/" exact activeClassName="isActive">
                         Home
                     </NavLink>
-                    <NavLink onClick={() => this.handleClick()} to="/about" activeClassName="isActive">
+                    <NavLink onClick={() => this.isVisible()} to="/about" activeClassName="isActive">
                         About
                     </NavLink>
-                    <NavLink onClick={() => this.handleClick()} to="/contact" activeClassName="isActive">
+                    <NavLink onClick={() => this.isVisible()} to="/contact" activeClassName="isActive">
                         Contact
                     </NavLink>
                 </ul>
-                <div onClick={() => this.handleClick()} className="hamburger">
+                <div ref={this.hamburger} onClick={() => this.isVisible()} className="hamburger">
                         <div className="line"></div>
                         <div className="line"></div>
                         <div className="line"></div>

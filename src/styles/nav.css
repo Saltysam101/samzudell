@@ -88,13 +88,29 @@ a{
 /*Desktop*/
 @media only screen and (min-width: 1050px){
 .hamburger{
-    display: none;
+    visibility: hidden;
+}
+
+.nav-links-toggled{
+    width: 25%;
+    height: 45px;
+    margin-top: 35px;
+    margin-left: 63%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 45px;
+    z-index: 10;
+    flex-direction: row;
+    background-color: transparent;
+    transition: none;
 }
 
 .nav{
     z-index: 5;
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 .tab{
     width: 250px;
@@ -131,7 +147,7 @@ a{
     justify-content: space-between;
     align-items: center;
     margin-right: 45px;
-    z-index: 5;
+    z-index: 10;
 }
 
 .isActive{

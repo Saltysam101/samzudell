@@ -9,6 +9,7 @@ import chatme from '../Assets/chatme.png';
 import contactImage from '../Assets/contactpic.png';
 
 export default class Home extends Component {
+    
     render() {
         return (
             <div>
