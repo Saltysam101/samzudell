@@ -129,6 +129,70 @@
     width: 100%;
 }
 
+@media only screen and (min-width: 400px){
+    .hero-stmt{
+        width: 50%;
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 425px){
+    .hero-info{
+        justify-content: center;
+    }
+    .project-section{
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (min-width: 510px){
+    .project-section{
+        margin-top: 80px;
+    }
+
+
+}
+
+@media only screen and (min-width: 575px){
+    .project-section{
+        margin-top: 120px;
+    }
+    .hero-info{
+        justify-content: flex-end;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .project-section{
+        margin-top: 140px;
+    }
+
+    .project-item{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 700px){
+    .project-section{
+        margin-top: 200px;
+    }
+
+    .hero-info{
+        height: 30vh;
+        justify-content: space-around;
+    }
+
+    .hero-stmt{
+        font-size: 1.2em;
+    }
+
+    .git-link-btn{
+        width: 150px;
+        height: 40px;
+    }
+}
+
 /*desktop */
 @media only screen and (min-width: 1000px)
 {
