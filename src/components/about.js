@@ -34,9 +34,7 @@ export default class About extends Component {
                         Amber and Jackson and the cat's names are Coal,
                         Storm, and Gray. And yes, all but one animal is 
                         named based on the color of their fur!
-                        <br/>
-                        <br/>
-                        I am a homeowner in northeast Ohio. 
+                        I am also a homeowner in northeast Ohio. 
 
  </p>
                </div>

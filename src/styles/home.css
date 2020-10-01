@@ -7,15 +7,16 @@
 
 .hero-info{
     margin-left: 10px;
-    height: 20vh;
+    height: 25vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .hero-stmt{
-    font-size: 1em;
+    font-size: .75em;
     width: 75%;
+    margin-top: 30px;
 }
 
 .hero-git-title{
@@ -37,6 +38,7 @@
     display: flex;
     align-items: center;
     justify-content: center; 
+    cursor: pointer;
 }
 
 .hero-git-link{
@@ -48,13 +50,14 @@
 }
 
 .project-section{
-    margin-top: 65px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .section-title{
     font-size: 1em;
+    border-bottom: #00B1FF 2px solid;
+    width: 10%;
 }
 
 .project-container{
@@ -127,7 +130,7 @@
 }
 
 /*desktop */
-@media only screen and (max-width: 1550px)
+@media only screen and (min-width: 1000px)
 {
 .hero-bg-img{
     position: absolute;

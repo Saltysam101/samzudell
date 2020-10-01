@@ -3,7 +3,6 @@ import {NavLink} from 'react-router-dom';
 import '../styles/nav.css';
 
 export default class Nav extends React.Component {
-
         state = { condition: false };
         hamburger = React.createRef();
     
@@ -14,7 +13,12 @@ export default class Nav extends React.Component {
        }
        else{
            this.handleClick();
+           this.toggleScroll();
        }
+    }
+
+    toggleScroll(){
+        document.body.classList.toggle('open');
     }
 
     handleClick() {
@@ -23,7 +27,7 @@ export default class Nav extends React.Component {
 
     render() {
 
-        const menu = this.state.condition ? "nav-links-toggled" : "nav-links"
+        const menu = this.state.condition ? "nav-links-toggled" : "nav-links";
 
         return (
             <div className="nav">
