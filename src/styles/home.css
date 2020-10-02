@@ -150,6 +150,11 @@
         margin-top: 80px;
     }
 
+    .contact-info{
+        height: 20vh;
+        justify-content: flex-end;
+    }
+
 
 }
 
@@ -191,25 +196,45 @@
         width: 150px;
         height: 40px;
     }
+
+    .project-container{
+        margin-top: 50px;
+    }
+
+    .project-item{
+        margin-top: 25px;
+    }
+
+    .contact-stmt{
+        font-size: 1.25em;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    .hero-info{
+        height: 40vh;
+    }
+}
+
+@media only screen and (min-width: 900px){
+    .hero-stmt{
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 950px){
+
+    .hero-info{
+        height: 50vh;
+    }
 }
 
 /*desktop */
 @media only screen and (min-width: 1000px)
 {
-.hero-bg-img{
-    position: absolute;
-    top: 0%;
-    transform: translate(0%, 0%);
-    width: 100%;
-    z-index: 0;
-}
 
 .hero-info{
-    height: 65%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 15%;
+    height: 55vh;
 }
 
 .git-container{
@@ -221,35 +246,17 @@
     margin-left: 30px;
     margin-bottom: 0;
     z-index: 5;
-    font-size: 2.75em;
+    font-size: 2em;
     font-family: nunito;
     font-weight: bold;
 }
 
-.hero-git-title{
+.git-link-btn{
     margin-left: 30px;
-    font-size: 1.75em;
-    font-family: nunito;
-    font-weight: bold;
-}
-
-.hero-git-link{
-    z-index: 6;
-    position: absolute;
-}
-
-.hero-git-icon{
-    margin-left: 10px;
-    z-index: 5;
 }
 
 .hero-page{
     height: 60vh;
-}
-
-.section-title{
-    margin-top: 180px;
-    font-family: nunito;
 }
 
 .project-section{
@@ -257,18 +264,13 @@
 }
 
 .project-container{
-    margin-top: 180px;
     display: flex;
     justify-content: space-evenly;
 }
 
 .project-item{
-    width: 475px;
+    width: 300px;
     height: 575px;
-}
-
-.project-name{
-    font-family: nunito;
 }
 
 .project-description{
@@ -325,7 +327,7 @@
 
 .contact-stmt{
     z-index: 5;
-    font-size: 2.75em;
+    font-size: 2em;
     width: 50%;
 }
 
