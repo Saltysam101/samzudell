@@ -354,3 +354,17 @@
     font-weight: bold;
 }
 }
+
+@media only screen and (min-width: 1200px){
+    .project-section{
+        margin-top: 350px;
+    }
+
+    .hero-info{
+        height: 70vh;
+    }
+
+    .project-item{
+        width: 375px;
+    }
+}
