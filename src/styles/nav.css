@@ -132,12 +132,14 @@ a{
     text-align: center;
     margin: 0;
     font-family: nunito;
+    font-size: 1.5em;
 }
 
 .my-role{
     text-align: center;
     margin: 0;
     font-family: nunito;
+    font-size: 1em;
 }
 
 .nav-links{

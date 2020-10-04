@@ -176,6 +176,10 @@
         width: 80%;
         margin: 0 auto;
     }
+
+    .section-title{
+        width: 7%;
+    }
 }
 
 @media only screen and (min-width: 700px){
@@ -220,6 +224,9 @@
     .hero-stmt{
         font-size: 1.5em;
     }
+    .section-title{
+        width: 5%;
+    }
 }
 
 @media only screen and (min-width: 950px){
@@ -227,6 +234,8 @@
     .hero-info{
         height: 50vh;
     }
+
+
 }
 
 /*desktop */
@@ -353,6 +362,11 @@
     background-color: white;
     font-weight: bold;
 }
+
+.section-title{
+    width: 3%;
+    font-size:1.5em;
+}
 }
 
 @media only screen and (min-width: 1200px){
@@ -366,5 +380,23 @@
 
     .project-item{
         width: 375px;
+    }
+
+    .hero-stmt{
+        font-size: 2.5em;
+    }
+
+    .project-description{
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 1300px){
+    .project-item{
+        width: 425px;
+    }
+
+    .contact-stmt{
+        font-size: 2.5em;
     }
 }
