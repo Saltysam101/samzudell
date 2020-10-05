@@ -380,6 +380,7 @@
 
     .project-item{
         width: 375px;
+        height: 675px;
     }
 
     .hero-stmt{
@@ -394,6 +395,7 @@
 @media only screen and (min-width: 1300px){
     .project-item{
         width: 425px;
+
     }
 
     .contact-stmt{

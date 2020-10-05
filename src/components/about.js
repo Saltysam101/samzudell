@@ -13,7 +13,7 @@ export default class About extends Component {
                </div>
 
                <div className="about-me">
-                   <h3>A little about me</h3>
+                   <h3 className="title">A little about me</h3>
                    <p>I am a self-taught web developer. Throughout my
                     short work experience, I have worked in fast food
                     restaurants and more recently in a factory. 
@@ -30,7 +30,7 @@ export default class About extends Component {
                </div>
 
                <div className="unrelated-facts">
-                   <h3>Unrelated Facts</h3>
+                   <h3 className="title">Unrelated Facts</h3>
                    <p>I am a pet owner of five!(Yikes) I have two Golden
                         Doodles and three cats. The dog's names are 
                         Amber and Jackson and the cat's names are Coal,
