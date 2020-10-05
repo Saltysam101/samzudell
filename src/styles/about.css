@@ -1,0 +1,67 @@
+.about-hero{
+    height: 40vh;
+    margin: 0 10px;
+}
+
+.about-section-title{
+    border-bottom: #00B1FF 2px solid;
+    width: 10%;
+    font-size: 1em;
+    margin-left: 10px;
+}
+
+.about-hero-stmt{
+    width: 85%;
+    font-size: 1.2em;
+}
+
+.me{
+    height: 200px;
+    width: 90%;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.about-me{
+    margin: 150px 10px 0 10px;
+}
+
+.unrelated-facts{
+    margin: 20px 10px 20px 10px;
+}
+
+@media only screen and (min-width: 550px){
+    .me{
+        height: 300px;
+    }
+
+    .about-me{
+        margin-top: 200px;
+    }
+}
+
+@media only screen and (min-width: 650px){
+    .about-hero{
+        display: flex;
+        height: 25vh;
+    }
+
+    .about-hero-stmt{
+        width: 50%;
+    }
+
+    .me{
+        width: 45%;
+        height: 175px;
+        margin: 0;
+        margin-left: auto;
+    }
+
+    .about-me{
+        margin-top: 75px;
+    }
+}
+
+@media only screen and (min-width: 750px){
+
+}

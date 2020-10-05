@@ -1,13 +1,15 @@
 import React, { Component } from 'react'
 
+import '../styles/about.css';
+
 export default class About extends Component {
     render() {
         return (
             <div>
+                <h3 className="about-section-title">About</h3>
                 <div className="about-hero">
-                    <h3>About</h3>
-                    <h4>Do you want to know the man behind the website? Check out my short bio below.</h4>
-                    <img src="" alt=""/>
+                    <h4 className="about-hero-stmt">Do you want to know the man behind the website? Check out my short bio below.</h4>
+                    <div className="me" src="" alt=""></div>
                </div>
 
                <div className="about-me">
