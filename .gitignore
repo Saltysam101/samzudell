@@ -10,6 +10,10 @@
 
 # production
 /build
+firebase.json
+functions
+index.html
+firebase.js
 
 # misc
 .DS_Store
