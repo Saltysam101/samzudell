@@ -3,8 +3,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Nav from './components/nav';
 import Home from './components/home';
 import About from './components/about';
-import Contact from './components/contact';
-
+import ContactForm from './components/contact';
 
 
 function App() {
@@ -15,7 +14,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
+          <Route path="/contact" component={ContactForm} />
         </Switch>
       </div>
     </Router>
