@@ -57,14 +57,16 @@
 
 .nav-links-toggled{
     list-style: none;
+    width: 88.9%;
+    height: 102vh;
     position: absolute;
     top: -2.5%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    width: 88.9%;
-    height: 102vh;
+    -webkit-clip-path: circle(2400px at 90% -10%);
+    clip-path: circle(2400px at 90% -10%);
     transition: 1s ease-out;
     background-color: lightgray;
     pointer-events: all;
@@ -82,6 +84,49 @@ a{
     font-size: 1.5em;
     color: black;
     z-index: 5;
+}
+
+@media only screen and (min-width: 375px){
+    .nav-links-toggled{
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 410px){
+    .nav-links-toggled{
+        width: 90.5%;
+    }
+}
+
+@media only screen and (min-width: 450px){
+    .nav-links-toggled{
+        width: 92%;
+    }
+}
+
+@media only screen and (min-width: 550px){
+    .nav-links-toggled{
+        width: 93%;
+    }
+}
+
+@media only screen and (min-width: 700px){
+    .nav-links-toggled{
+        width: 94%;
+    }
+}
+
+@media only screen and (min-width: 750px){
+    .nav-links-toggled{
+        width: 95%;
+    }
+}
+
+
+@media only screen and (min-width: 1000px){
+    .nav-links-toggled{
+        width: 96%;
+    }
 }
 
 
