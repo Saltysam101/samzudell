@@ -5,6 +5,13 @@
     top: 0%;
 }
 
+h1,
+h2,
+h3,
+button{
+    font-family: nunito;
+}
+
 .hero-info{
     margin-left: 10px;
     height: 25vh;
@@ -262,6 +269,9 @@
 
 .git-link-btn{
     margin-left: 30px;
+    width: 200px;
+    height: 50px;
+    font-size: .9em;
 }
 
 .hero-page{
@@ -275,6 +285,10 @@
 .project-container{
     display: flex;
     justify-content: space-evenly;
+}
+
+.project-name{
+    font-size: 1.25em;
 }
 
 .project-item{
@@ -307,6 +321,8 @@
     color: white;
     margin-top: auto;
     font-family: nunito;
+    font-weight: bold;
+    letter-spacing: .2em;
 }
 
 .see-code:hover{
@@ -353,7 +369,8 @@
     background-color: #00B1FF;
     border-color: #00B1FF;
     color: white;
-    letter-spacing: 0.25em;
+    letter-spacing: 0.2em;
+    font-weight: bold;
 }
 
 .contact-btn:hover{
