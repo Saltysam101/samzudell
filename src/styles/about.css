@@ -3,6 +3,11 @@
     margin: 0 10px;
 }
 
+p,
+h4{
+    font-family: nunito;
+}
+
 .about-section-title{
     border-bottom: #00B1FF 2px solid;
     width: 10%;
@@ -17,7 +22,7 @@
 
 .me{
     height: 200px;
-    width: 90%;
+    width: 100%;
     background-color: black;
     margin: 0 auto;
 }
@@ -122,5 +127,12 @@
 
     p{
         font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 1150px){
+    .me{
+        width: 600px;
+        height: 350px;
     }
 }

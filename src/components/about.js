@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import me from '../Assets/about-pic.jpg';
 import '../styles/about.css';
 
 export default class About extends Component {
@@ -9,7 +9,7 @@ export default class About extends Component {
                 <h3 className="about-section-title">About</h3>
                 <div className="about-hero">
                     <h4 className="about-hero-stmt">Do you want to know the man behind the website? Check out my short bio below.</h4>
-                    <div className="me" src="" alt=""></div>
+                    <img className="me" src={me} alt=""/>
                </div>
 
                <div className="about-me">
