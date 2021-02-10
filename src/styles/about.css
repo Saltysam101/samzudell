@@ -28,11 +28,17 @@ h4{
 }
 
 .about-me{
-    margin: 150px 10px 0 10px;
+    margin: 120px 10px 0 10px;
 }
 
 .unrelated-facts{
     margin: 20px 10px 20px 10px;
+}
+
+@media only screen and (min-width: 400px){
+    .about-me{
+        margin-top: 70px;
+    }
 }
 
 
@@ -48,7 +54,7 @@ h4{
     }
 
     .about-me{
-        margin-top: 200px;
+        margin-top: 90px;
     }
 }
 

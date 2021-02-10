@@ -1,15 +1,20 @@
 /*mobile*/
-.hero-bg-img{
-    width: 100%;
-    position: absolute;
-    top: 0%;
-}
+
 
 h1,
 h2,
 h3,
+p,
 button{
     font-family: nunito;
+}
+
+.hero-page{
+    background:#393E46;
+}
+
+svg{
+    width: 30rem;
 }
 
 .hero-info{

@@ -1,19 +1,4 @@
-import React, { Component } from 'react';
-import '../styles/home.css';
-//import image from '../Asset/vector-dev.svg';
-import icon from '../Assets/iconfinder_github-social-media_765246(1).jpg';
-import { Link } from 'react-router-dom';
-import currentWeather from '../Assets/currentweather.jpg';
-import petsy from '../Assets/petsy.jpg';
-import chatme from '../Assets/chatme.jpg';
-
-export default class Home extends Component {
-    
-    render() {
-        return (
-            <div>
-                <div className="hero-page">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1108" height="880" viewBox="0 0 1108 880" fill="none">
+<svg width="1108" height="880" viewBox="0 0 1108 880" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M269.57 224.107C274.753 224.107 278.954 219.904 278.954 214.72C278.954 209.536 274.753 205.333 269.57 205.333C264.387 205.333 260.186 209.536 260.186 214.72C260.186 219.904 264.387 224.107 269.57 224.107Z" fill="#545454"/>
 <path d="M420.667 588.867C424.473 588.867 427.559 585.78 427.559 581.973C427.559 578.166 424.473 575.08 420.667 575.08C416.861 575.08 413.776 578.166 413.776 581.973C413.776 585.78 416.861 588.867 420.667 588.867Z" fill="#545454"/>
 <path d="M891.773 183.04C897.199 183.04 901.597 178.64 901.597 173.213C901.597 167.786 897.199 163.387 891.773 163.387C886.348 163.387 881.949 167.786 881.949 173.213C881.949 178.64 886.348 183.04 891.773 183.04Z" fill="#545454"/>
@@ -383,67 +368,3 @@ export default class Home extends Component {
 <path opacity="0.14" d="M591.998 334.033C590.825 334.4 592.365 342.687 592.878 345.18C594.051 350.9 595.884 355.52 597.424 358.6C599.77 359.333 602.116 360.14 604.388 360.873C595.737 338.36 592.952 333.74 591.998 334.033Z" fill="#4C4C4C"/>
 <path opacity="0.12" d="M557.322 342.907C557.542 344.74 557.688 346.427 556.735 347.82C555.562 349.507 553.729 349.213 552.116 351.633C551.53 352.513 551.53 352.953 551.677 353.173C552.043 353.833 553.583 353.54 554.316 353.54C558.128 353.687 560.401 357.573 563.04 359.847C565.166 361.753 568.832 363.733 575.43 363.88C572.204 362.12 568.465 359.773 564.653 356.62C562.527 354.86 560.621 353.027 559.008 351.34C559.741 349.727 561.061 346.133 559.668 342.467C558.641 339.68 556.295 337.7 556.002 337.92C555.635 338.14 556.955 339.827 557.322 342.907Z" fill="#4C4C4C"/>
 </svg>
-                    <div className="hero-info">
-                        <div>
-                            <h1 className="hero-stmt">Samuel Zudell</h1>
-                            <p>A problem solver with skills in web development.</p>
-                        </div>    
-                        <div className="git-container">
-                            <Link className="hero-git-link" target="_blank" to={"//github.com/Saltysam101"}>
-                                <button className="git-link-btn">  
-                                    <span>Github</span>
-                                    <img className="hero-git-icon" src={icon} alt=""/>
-                                </button>
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="project-section">
-                    <h2 className="section-title">Projects</h2>
-                    <div className="project-container">
-                        <div className="project-item">
-                            <h3 className="project-name">Current Weather</h3>
-                            <Link target="_blank" to={"//www.currentweathertemp.com/"}>
-                                <img className="project-img" loading="eager" src={currentWeather} alt=""/>
-                            </Link>
-                            <div className="div">
-                                <p className="project-description">
-                                    This is a basic weather website. It will ask for permission to track your location and then based on that it will tell you some basic weather info for that location. The site will also give you a 3 day forecast that is updated every 3 hours.
-                                </p>
-                                <Link className="git-link" target="_blank" to={"//github.com/Saltysam101/weather-js"}>
-                                    <button className="see-code">See Code</button>
-                                </Link>
-                            </div>
-                        </div>
-                        <div className="project-item">
-                            <h3 className="project-name">Petsy</h3>
-                            <Link target="_blank" to={"//www.dogsstuff.net/"}>
-                                <img className="project-img" loading="lazy" src={petsy} alt=""/>
-                            </Link>
-                            <div className="div">
-                                <p className="project-description">Petsy is a make-believe dog store. It sells different brands of dog food and dog toys. When you click the 'add to cart' button, it adds it to the cart and if you want more than just one of that item, you can adjust the quantity in the cart. The total should update to adding items and adjustments to the quantities. Finally, when you click the 'checkout' button, an alert will pop up and let you know your "purchase" went through and it will clear the cart.</p>
-                                <Link className="git-link" target="_blank" to={"//github.com/Saltysam101/petsy"}>
-                                    <button className="see-code">See Code</button>
-                                </Link>
-                            </div>
-                        </div>
-                        <div className="project-item">
-                            <h3 className="project-name">ChatMe</h3>
-                            <Link target="_blank" to={"//chatmeapp.net/"}>
-                                <img className="project-img" loading="lazy" src={chatme} alt=""/>
-                            </Link>
-                            <div className="div">
-                                <p className="project-description">ChatMe is a basic realtime chat site. You can create an account and just chat with anyone who is on there. There are no seperate groups for different chats, it's all just one chat.</p>
-                                <Link className="git-link" target="_blank" to={"//github.com/Saltysam101/ChatMe"}>
-                                    <button className="see-code">See Code</button>
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        )
-    }
-}

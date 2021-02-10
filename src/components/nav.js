@@ -8,7 +8,7 @@ export default class Nav extends React.Component {
     
     isVisible(){
        const style = getComputedStyle(this.hamburger.current);
-       if(style.visibility === "hidden"){
+       if(style.display === "none"){
            return false
        }
        else{
@@ -31,10 +31,6 @@ export default class Nav extends React.Component {
 
         return (
             <div className="nav">
-                <div className="tab">
-                    <h1 className="my-name">Samuel Zudell</h1>
-                    <h3 className="my-role">Web Developer</h3>
-                </div>
                 <ul className={menu}>
                     <NavLink onClick={() => this.isVisible()} to="/" exact activeClassName="isActive">
                         Home

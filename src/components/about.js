@@ -9,7 +9,7 @@ export default class About extends Component {
                 <h3 className="about-section-title">About</h3>
                 <div className="about-hero">
                     <h4 className="about-hero-stmt">Do you want to know the man behind the website? Check out my short bio below.</h4>
-                    <img className="me" src={me} alt=""/>
+                    <img className="me" loading="eager" src={me} alt=""/>
                </div>
 
                <div className="about-me">
@@ -31,12 +31,13 @@ export default class About extends Component {
 
                <div className="unrelated-facts">
                    <h3 className="title">Unrelated Facts</h3>
-                   <p>I am a pet owner of five!(Yikes) I have two Golden
-                        Doodles and three cats. The dog's names are 
+                   <p>My wife(Cheryl) and I bought our house at the end 
+                       of 2018. We have five animals that cause mayhem!
+                       (Yikes) We have two Golden Doodles and three 
+                       cats. The dog's names are 
                         Amber and Jackson and the cat's names are Coal,
                         Storm, and Gray. And yes, all but one animal is 
-                        named based on the color of their fur!
-                        I am also a homeowner in northeast Ohio. 
+                        named based on the color of their fur! 
 
  </p>
                </div>
