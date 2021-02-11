@@ -7,14 +7,26 @@ h3,
 p,
 button{
     font-family: nunito;
+    color: white;
 }
 
 .hero-page{
     background:#393E46;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.svg-container{
+    width: 100%;
+    height: 300px;
 }
 
 svg{
-    width: 30rem;
+    width: 95%;
+    margin: 0 auto;
+    height: 300px;
 }
 
 .hero-info{
@@ -23,29 +35,51 @@ svg{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: center;
+}
+
+.hero-stmt-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5em;
+}
+
+.hero-stmt-container > p{
+    width: 75%;
+    margin-top: 5px;
 }
 
 .hero-stmt{
-    font-size: .75em;
+    font-size: 2.3em;
     width: 75%;
-    margin-top: 30px;
+    margin: 0;
 }
 
-.hero-git-title{
-    font-size: 0.75em;
+.git-container{
+    margin-left: 0;
+    margin-top: 5.5em;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .hero-git-icon{
     width: 25%;
 }
 
 .git-link-btn{
-    margin-top: 10px;
-    height: 30px;
-    width: 120px;
-    font-size: 0.6em;
-    background-color: #00B1FF;
-    border-color: #00B1FF;
+    margin-top: 10px auto 0 auto;
+    height: 45px;
+    width: 150px;
+    font-size: 0.9em;
+    font-weight: bold;
+    background-color: #FFD369;
+    border-color: #FFD369;
     color: white;
     display: flex;
     align-items: center;
@@ -141,17 +175,9 @@ svg{
     width: 100%;
 }
 
-@media only screen and (min-width: 400px){
-    .hero-stmt{
-        width: 50%;
-        font-size: 1em;
-    }
-}
 
 @media only screen and (min-width: 425px){
-    .hero-info{
-        justify-content: center;
-    }
+    
     .project-section{
         margin-top: 50px;
     }
@@ -162,10 +188,7 @@ svg{
         margin-top: 80px;
     }
 
-    .contact-info{
-        height: 20vh;
-        justify-content: flex-end;
-    }
+    
 
 
 }
@@ -173,9 +196,6 @@ svg{
 @media only screen and (min-width: 575px){
     .project-section{
         margin-top: 120px;
-    }
-    .hero-info{
-        justify-content: flex-end;
     }
 }
 
@@ -199,20 +219,6 @@ svg{
         margin-top: 200px;
     }
 
-    .hero-info{
-        height: 30vh;
-        justify-content: space-around;
-    }
-
-    .hero-stmt{
-        font-size: 1.2em;
-    }
-
-    .git-link-btn{
-        width: 150px;
-        height: 40px;
-    }
-
     .project-container{
         margin-top: 50px;
     }
@@ -220,35 +226,15 @@ svg{
     .project-item{
         margin-top: 25px;
     }
-
-    .contact-stmt{
-        font-size: 1.25em;
-    }
 }
 
-@media only screen and (min-width: 800px){
-    .hero-info{
-        height: 40vh;
-    }
-}
 
 @media only screen and (min-width: 900px){
-    .hero-stmt{
-        font-size: 1.5em;
-    }
     .section-title{
         width: 5%;
     }
 }
 
-@media only screen and (min-width: 950px){
-
-    .hero-info{
-        height: 50vh;
-    }
-
-
-}
 
 /*desktop */
 @media only screen and (min-width: 1000px)
