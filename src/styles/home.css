@@ -10,6 +10,8 @@ button{
     color: white;
 }
 
+
+
 .hero-page{
     background:#393E46;
     height: 95vh;
@@ -43,33 +45,33 @@ svg{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin-top: 2.5em;
 }
 
 .hero-stmt-container > p{
-    width: 75%;
     margin-top: 5px;
+    max-width: 16em;
 }
 
 .hero-stmt{
     font-size: 2.3em;
-    width: 75%;
+    
     margin: 0;
 }
 
-.git-container{
-    margin-left: 0;
-    margin-top: 5.5em;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 
 .hero-git-icon{
     width: 25%;
+}
+
+.git-link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
 }
 
 .git-link-btn{
@@ -87,23 +89,31 @@ svg{
     cursor: pointer;
 }
 
+span{
+    color: #393E46;
+}
+
 .hero-git-link{
+    margin-top: 2.5em;
     z-index: 5;
-    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.main{
+    background: #222831;
+}
+
 .project-section{
-    margin-left: 10px;
-    margin-right: 10px;
+    background: #222831;
 }
 
 .section-title{
-    font-size: 1em;
-    border-bottom: #00B1FF 2px solid;
+    font-size: 1.25em;
+    border-bottom: #FFD369 2px solid;
     width: 10%;
+    margin-left: 0.5em;
 }
 
 .project-container{
@@ -113,10 +123,19 @@ svg{
 .project-item{
     width: 100%;
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .project-name{
-    font-size: 0.75em;
+    font-size: 1em;
+    
+}
+
+.img-link{
+    width: 90%;
 }
 
 .project-img{
@@ -125,94 +144,23 @@ svg{
 
 .project-description{
     font-size: 0.75em;
+    width: 85%;
 }
 
 .see-code{
-    height: 30px;
+    height: 40px;
     width: 100px;
-    font-size: 0.75em;
-    background-color: #00B1FF;
-    border-color: #00B1FF;
-    color: white;
-    margin-top: auto;
+    font-size: 1em;
+    background-color: #FFD369;
+    border-color: #FFD369;
+    color: #393E46;
     font-family: nunito;
     cursor: pointer;
-}
-
-
-.contact-section{
-    margin-top: 30px;
-}
-
-.contact-info{
-    margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.contact-stmt{
-    z-index: 5;
-    font-size: 1em;
-    width: 50%;
-}
-
-.contact-btn{
-    z-index: 5;
-    height: 30px;
-    width: 100px;
-    font-size: 0.75em;
-    background-color: #00B1FF;
-    border-color: #00B1FF;
-    color: white;
-    cursor: pointer;
+    font-weight: bold;
 }
 
 
 
-.contact-img{
-    position: absolute;
-    width: 100%;
-}
-
-
-@media only screen and (min-width: 425px){
-    
-    .project-section{
-        margin-top: 50px;
-    }
-}
-
-@media only screen and (min-width: 510px){
-    .project-section{
-        margin-top: 80px;
-    }
-
-    
-
-
-}
-
-@media only screen and (min-width: 575px){
-    .project-section{
-        margin-top: 120px;
-    }
-}
-
-@media only screen and (min-width: 600px){
-    .project-section{
-        margin-top: 140px;
-    }
-
-    .project-item{
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .section-title{
-        width: 7%;
-    }
-}
 
 @media only screen and (min-width: 700px){
     .project-section{
@@ -244,9 +192,6 @@ svg{
     height: 55vh;
 }
 
-.git-container{
-    margin-top: 45px;
-}
 
 .hero-stmt{
     width: 45%;
@@ -296,12 +241,6 @@ svg{
     width: 150px;
 }
 
-.div{
-    height: 42%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 
 .see-code{
     height: 50px;
@@ -323,53 +262,6 @@ svg{
     font-weight: bold;
 }
 
-.contact-section{
-    margin-top: 180px;
-}
-
-.contact-img{
-    position: absolute;
-    width: 100%;
-    z-index: 0;
-}
-
-.contact-info{
-    margin-left: 30px;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.contact-stmt{
-    z-index: 5;
-    font-size: 2em;
-    width: 50%;
-}
-
-.contact-link{
-    z-index: 5;
-    margin-top: 50px;
-}
-
-.contact-btn{
-    z-index: 5;
-    height: 50px;
-    width: 150px;
-    font-size: 0.75em;
-    background-color: #00B1FF;
-    border-color: #00B1FF;
-    color: white;
-    letter-spacing: 0.2em;
-    font-weight: bold;
-}
-
-.contact-btn:hover{
-    cursor: pointer;
-    color: #00B1FF;
-    background-color: white;
-    font-weight: bold;
-}
 
 .section-title{
     width: 3%;
@@ -406,7 +298,4 @@ svg{
 
     }
 
-    .contact-stmt{
-        font-size: 2.5em;
-    }
 }
