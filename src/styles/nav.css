@@ -1,5 +1,9 @@
 /*mobile*/
 
+
+.open{
+    overflow: hidden;
+}
 .nav{
     display: flex;
     justify-content: space-between;
@@ -30,77 +34,35 @@
 
 .nav-links-toggled{
     list-style: none;
-    width: 88.9%;
-    height: 102vh;
+    width: 100%;
+    height: 110vh;
     position: absolute;
     top: -2.5%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    -webkit-clip-path: circle(2400px at 90% -10%);
-    clip-path: circle(2400px at 90% -10%);
-    transition: 1s ease-out;
-    background-color: lightgray;
+    background-color: #222831;
     pointer-events: all;
     z-index: 10;
+    margin: 0;
+    padding: 0;
 }
 
 .isActive{
     font-weight: bold;
-    color: #00B1FF;
+    color:#FFD369;
 }
 
 a{
     text-decoration: none;
     font-family: nunito;
     font-size: 1.5em;
-    color: black;
+    color: white;
     z-index: 5;
 }
 
-@media only screen and (min-width: 375px){
-    .nav-links-toggled{
-        width: 90%;
-    }
-}
 
-@media only screen and (min-width: 410px){
-    .nav-links-toggled{
-        width: 90.5%;
-    }
-}
-
-@media only screen and (min-width: 450px){
-    .nav-links-toggled{
-        width: 92%;
-    }
-}
-
-@media only screen and (min-width: 550px){
-    .nav-links-toggled{
-        width: 93%;
-    }
-}
-
-@media only screen and (min-width: 700px){
-    .nav-links-toggled{
-        width: 94%;
-    }
-}
-
-@media only screen and (min-width: 750px){
-    .nav-links-toggled{
-        width: 95%;
-    }
-}
-
-
-@media only screen and (min-width: 1000px){
-    .nav-links-toggled{
-        width: 96%;
-    }
-}
 
 
 /*Desktop*/
@@ -131,19 +93,7 @@ a{
     width: 100%;
 }
 
-.my-name{
-    text-align: center;
-    margin: 0;
-    font-family: nunito;
-    font-size: 1.5em;
-}
 
-.my-role{
-    text-align: center;
-    margin: 0;
-    font-family: nunito;
-    font-size: 1em;
-}
 
 .nav-links{
     width: 100%;

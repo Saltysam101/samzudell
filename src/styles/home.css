@@ -71,7 +71,6 @@ svg{
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 1em;
 }
 
 .git-link-btn{
@@ -203,6 +202,8 @@ span{
     font-weight: bold;
 }
 
+
+
 .git-link-btn{
     margin-left: 30px;
     width: 200px;
@@ -237,9 +238,7 @@ span{
     font-family: nunito;
 }
 
-.git-link{
-    width: 150px;
-}
+
 
 
 .see-code{
