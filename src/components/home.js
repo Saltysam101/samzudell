@@ -18,12 +18,12 @@ export default class Home extends Component {
                             <h1 className="hero-stmt">Samuel Zudell</h1>
                             <p>A problem solver with skills in Web Development.</p>
                         </div>    
-                            <Link className="hero-git-link" target="_blank" to={"//github.com/Saltysam101"}>
-                                <button className="git-link-btn">  
-                                    <span>Github</span>
-                                    <img className="hero-git-icon" src={icon} alt=""/>
-                                </button>
-                            </Link>
+                        <Link className="hero-git-link" target="_blank" to={"//github.com/Saltysam101"}>
+                            <button className="git-link-btn">  
+                                <span>Github</span>
+                                <img className="hero-git-icon" src={icon} alt=""/>
+                            </button>
+                        </Link>
                     </div>
                     <div className="svg-container">
                         <svg xmlns="http://www.w3.org/2000/svg" width="1108" height="880" viewBox="0 0 1108 880" fill="none">

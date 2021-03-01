@@ -1,22 +1,33 @@
-.about-hero{
-    height: 40vh;
-    margin: 0 10px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+
 
 p,
 h4{
     font-family: nunito;
 }
 
+.about-hero{
+    height: 44vh;
+    display: flex;
+    flex-direction: column;
+    background: #222831;
+}
+
+.about-hero > img{
+    margin-top: 6vh;
+}
+
 .about-section-title{
-    border-bottom: #00B1FF 2px solid;
-    width: 10%;
-    font-size: 1em;
-    margin-left: 10px;
+    display: none;
 }
 
 .about-hero-stmt{
-    width: 85%;
+    margin: 1.5em;
     font-size: 1.2em;
 }
 
@@ -27,74 +38,31 @@ h4{
     margin: 0 auto;
 }
 
+.title{
+    color: #FFD369;
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+
 .about-me{
-    margin: 120px 10px 0 10px;
+    padding: 1.5em;
+    padding-bottom: 10em;
+    text-align: center;
+    background: #222831;
+}
+
+.about-me > p{
+    color: white;
 }
 
 .unrelated-facts{
     margin: 20px 10px 20px 10px;
 }
 
-@media only screen and (min-width: 400px){
-    .about-me{
-        margin-top: 70px;
-    }
-}
 
 
-@media only screen and (min-width: 500px){
-    .about-section-title{
-        width: 7%;
-    }
-}
 
-@media only screen and (min-width: 550px){
-    .me{
-        height: 300px;
-    }
 
-    .about-me{
-        margin-top: 90px;
-    }
-}
-
-@media only screen and (min-width: 650px){
-    .about-hero{
-        display: flex;
-        height: 25vh;
-    }
-
-    .about-hero-stmt{
-        width: 50%;
-    }
-
-    .me{
-        width: 45%;
-        height: 175px;
-        margin: 0;
-        margin-left: auto;
-    }
-
-    .about-me{
-        margin-top: 75px;
-    }
-
-    .about-section-title{
-        width: 5%;
-    }
-
-}
-
-@media only screen and (min-width: 800px){
-    .me{
-        width: 350px;
-        height: 200px;
-    }
-
-    .about-section-title{
-        width: 3%;
-    }
-}
 
 @media only screen and (min-width: 1050px){
     .me{
