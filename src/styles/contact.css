@@ -7,19 +7,12 @@ form{
     background: #393E46;
 }
 
-label,
 input{
     font-family: nunito;
-}
-
-input{
     height: 30px;
+    margin: 15px 30px;
 }
 
-label{
-    margin: 20px 30px 5px 30px;
-    color: white;
-}
 
 .name-container{
     display: flex;
@@ -36,12 +29,9 @@ label{
     flex-direction: column;
 }
 
-input{
-    margin: 0 30px;
-}
 
 textarea{
-    margin: 0 30px;
+    margin: 15px 30px;
     height: 150px;
 }
 
@@ -56,53 +46,30 @@ textarea{
     border-color: #FFD369;
 }
 
-@media only screen and (min-width: 500px){
-    input{
-        margin: 0 30px;
+@media only screen and (min-width: 768px){
+    form{
+        width: 100%;
+
     }
-    label{
-        margin-left: 30px;
+
+    input{
+        width: 60%;
+        margin: 25px auto;
     }
 
     textarea{
-        margin: 0 30px;
+        width: 60%;
+        margin: 25px auto;
+    }
+
+    .name-container{
+        width: 100%;
+    }
+
+    .form-submit{
+        width: 150px;
+        height: 60px;
+        font-size: 1.3em;
     }
 }
 
-@media only screen and (min-width: 550px){
-   form{
-       max-width: 300px;
-       min-width: 60%;
-       margin: 0 auto;
-   }
-
-   
-}
-
-@media only screen and (min-width: 900px){
-
-
-    label{
-        margin-bottom: 10px;
-    }
-    input{
-        margin-top: 0;
-    }
-  .name-container{
-      width: 450px;
-      margin-left: auto;
-      margin-right: auto;
-  }
-
-  .email-container{
-      width: 450px;
-      margin-left: auto;
-      margin-right: auto;
-  }
-
-  .message-container{
-      width: 450px;
-      margin-left: auto;
-      margin-right: auto;
-  }
-}

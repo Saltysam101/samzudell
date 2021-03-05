@@ -46,9 +46,10 @@ h4{
 
 .about-me{
     padding: 1.5em;
-    padding-bottom: 10em;
+    padding-bottom: 5em;
     text-align: center;
     background: #222831;
+    height: 66vh;
 }
 
 .about-me > p{
@@ -57,6 +58,27 @@ h4{
 
 .unrelated-facts{
     margin: 20px 10px 20px 10px;
+}
+
+@media only screen and (min-width: 768px){
+    .me{
+        width: 75%;
+        height: 75%;
+    }
+
+    .title{
+        font-size: 2.4em;
+    }
+
+    .about-me{
+        height: 60vh;
+    }
+
+    .about-me > p{
+        width: 25em;
+        margin: 0 auto;
+        font-size: 1.3em;
+    }
 }
 
 
