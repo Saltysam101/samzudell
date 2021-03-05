@@ -1,9 +1,10 @@
 form{
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: left;
+    background: #393E46;
 }
 
 label,
@@ -17,6 +18,7 @@ input{
 
 label{
     margin: 20px 30px 5px 30px;
+    color: white;
 }
 
 .name-container{
@@ -49,9 +51,9 @@ textarea{
     margin: 30px auto;
     letter-spacing: .3em;
     font-weight: bold;
-    color: white;
-    background-color: #00B1FF;
-    border-color: #00B1FF;
+    color: #393E46;
+    background-color: #FFD369;
+    border-color: #FFD369;
 }
 
 @media only screen and (min-width: 500px){
