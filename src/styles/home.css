@@ -170,7 +170,7 @@ span{
 @media only screen and (min-width: 768px){
 
     .svg-container{
-        height: 500px;
+        height: 350px;
     }
 
     svg{
@@ -187,8 +187,8 @@ span{
     }
 
     .git-link-btn{
-        width: 250px;
-        height: 80px;
+        width: 175px;
+        height: 50px;
         font-size: 1.5em;
     }
 
@@ -222,11 +222,18 @@ span{
 
 
 /*desktop */
-@media only screen and (min-width: 1000px)
+@media only screen and (min-width: 1024px)
 {
 
 .hero-info{
-    height: 55vh;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+}
+
+.svg-container{
+    height: 100%;
+    width: 50%;
 }
 
 
@@ -250,16 +257,23 @@ span{
 }
 
 .hero-page{
-    height: 60vh;
+    height: 100vh;
+    flex-direction: row;
 }
 
-.project-section{
-    margin-left: 30px;
-}
 
 .project-container{
     display: flex;
     justify-content: space-evenly;
+}
+
+.img-link{
+    width: 100%;
+    height: 170px;
+}
+
+.project-img{
+    height: 100%;
 }
 
 .project-name{
@@ -268,14 +282,22 @@ span{
 
 .project-item{
     width: 300px;
-    height: 575px;
+    height: 700px;
 }
 
 .project-description{
     width: 100%;
     font-family: nunito;
+    font-size: 1.3em;
+    height: 340px;
 }
 
+
+.git-link{
+    width: 150px;
+    height: 80px;
+    margin-top: 45px;
+}
 
 
 
@@ -286,7 +308,6 @@ span{
     background-color: #00B1FF;
     border-color: #00B1FF;
     color: white;
-    margin-top: auto;
     font-family: nunito;
     font-weight: bold;
     letter-spacing: .2em;

@@ -81,7 +81,7 @@ a{
 
 
 /*Desktop*/
-@media only screen and (min-width: 1050px){
+@media only screen and (min-width: 1024px){
 .hamburger{
     display:none;
 }
@@ -102,7 +102,7 @@ a{
 }
 
 .nav{
-    z-index: 5;
+    z-index: 11;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -121,14 +121,14 @@ a{
 
 .isActive{
     font-weight: bold;
-    color: #00B1FF;
+    color: #FFD369;
 }
 
 a{
     text-decoration: none;
     font-family: nunito;
     font-size: 1.5em;
-    color: black;
+    color: white;
     z-index: 5;
 }
 }
