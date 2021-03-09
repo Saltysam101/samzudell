@@ -278,11 +278,13 @@ span{
 
 .project-name{
     font-size: 1.25em;
+    margin: 0;
 }
 
 .project-item{
     width: 300px;
-    height: 700px;
+    height: 800px;
+    justify-content: space-evenly;
 }
 
 .project-description{
@@ -295,8 +297,8 @@ span{
 
 .git-link{
     width: 150px;
-    height: 80px;
-    margin-top: 45px;
+    height: 50px;
+    margin-top: 6em;
 }
 
 
@@ -305,18 +307,19 @@ span{
     height: 50px;
     width: 150px;
     font-size: 0.75em;
-    background-color: #00B1FF;
-    border-color: #00B1FF;
-    color: white;
+    background-color: #FFD369;
+    border-color: #FFD369;
+    color: #393E46;
     font-family: nunito;
     font-weight: bold;
     letter-spacing: .2em;
+    margin: 0;
 }
 
 .see-code:hover{
     cursor: pointer;
-    color: #00B1FF;
-    background-color: white;
+    color: #FFD369;
+    background-color: #393E46;
     font-weight: bold;
 }
 
@@ -327,33 +330,5 @@ span{
 }
 }
 
-@media only screen and (min-width: 1200px){
-    .project-section{
-        margin-top: 350px;
-    }
 
-    .hero-info{
-        height: 70vh;
-    }
 
-    .project-item{
-        width: 375px;
-        height: 675px;
-    }
-
-    .hero-stmt{
-        font-size: 2.5em;
-    }
-
-    .project-description{
-        font-size: 1em;
-    }
-}
-
-@media only screen and (min-width: 1300px){
-    .project-item{
-        width: 425px;
-
-    }
-
-}
