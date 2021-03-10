@@ -87,5 +87,13 @@ textarea{
     .page-title{
         font-size: 2em;
     }
+
+    input{
+        width: 40%;
+    }
+
+    textarea{
+        width: 40%;
+    }
 }
 

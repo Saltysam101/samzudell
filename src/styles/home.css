@@ -330,5 +330,15 @@ span{
 }
 }
 
+@media only screen and (min-width: 1200px){
+    .hero-stmt-container{
+        text-align: center;
+    }
+
+    .hero-stmt-container > p{
+        width: 14em;
+    }
+}
+
 
 
