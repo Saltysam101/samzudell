@@ -7,6 +7,12 @@ form{
     background: #393E46;
 }
 
+.page-title{
+    font-size: 1.2em;
+    color: #FFD369;
+    margin: 1em auto;
+}
+
 input{
     font-family: nunito;
     height: 30px;
@@ -52,6 +58,10 @@ textarea{
 
     }
 
+    .page-title{
+        font-size: 1.6em;
+    }
+
     input{
         width: 60%;
         margin: 25px auto;
@@ -70,6 +80,12 @@ textarea{
         width: 150px;
         height: 60px;
         font-size: 1.3em;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .page-title{
+        font-size: 2em;
     }
 }
 

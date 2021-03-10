@@ -86,14 +86,14 @@ h4{
 
 
 
-@media only screen and (min-width: 1050px){
+@media only screen and (min-width: 1024px){
     .me{
-        width: 450px;
-        height: 300px;
+        width: 50%;
+        height: 60%;
     }
 
     .about-hero{
-        height: 80vh;
+        height: 50vh;
         align-items: center;
         margin: 0;
     }
@@ -109,9 +109,7 @@ h4{
         width: 40%;
     }
 
-    .about-me{
-        margin: 100px 30px 0 30px;
-    }
+    
 
     .title{
         font-size: 1.5em;

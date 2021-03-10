@@ -41,7 +41,9 @@ const ContactForm = () => {
 
   return (
     <>
+      
       <form onSubmit={handleSubmit}>
+        <h1 className="page-title">Contact Form</h1>
         <div className="name-container">
           <input
             type="text"
