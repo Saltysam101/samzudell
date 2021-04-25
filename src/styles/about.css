@@ -5,7 +5,6 @@
 }
 
 
-
 p,
 h4{
     font-family: nunito;
@@ -15,11 +14,11 @@ h4{
     height: 44vh;
     display: flex;
     flex-direction: column;
-    background: #222831;
+    background: #393E46;
 }
 
 .about-hero > img{
-    margin-top: 6vh;
+    margin: auto;
 }
 
 .about-section-title{
