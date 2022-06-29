@@ -1,36 +1,33 @@
 /*mobile*/
 
-
 h1,
 h2,
 h3,
 p,
-button{
+button {
     font-family: nunito;
 }
 
-
-
-.hero-page{
-    background:#393E46;
+.hero-page {
+    background: #393E46;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.svg-container{
+.svg-container {
     width: 100%;
     height: 300px;
 }
 
-svg{
+svg {
     width: 95%;
     margin: 0 auto;
     height: 300px;
 }
 
-.hero-info{
+.hero-info {
     margin-left: 10px;
     height: 25vh;
     display: flex;
@@ -39,7 +36,7 @@ svg{
     align-items: center;
 }
 
-.hero-stmt-container{
+.hero-stmt-container {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -49,32 +46,28 @@ svg{
     color: white;
 }
 
-.hero-stmt-container > p{
+.hero-stmt-container>p {
     margin-top: 5px;
     max-width: 16em;
     text-align: center;
 }
 
-.hero-stmt{
+.hero-stmt {
     font-size: 2.3em;
-    
     margin: 0;
 }
 
-
-
-
-.hero-git-icon{
+.hero-git-icon {
     width: 25%;
 }
 
-.git-link{
+.git-link {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.git-link-btn{
+.git-link-btn {
     margin-top: 10px auto 0 auto;
     height: 45px;
     width: 150px;
@@ -85,15 +78,15 @@ svg{
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     cursor: pointer;
 }
 
-span{
+span {
     color: #393E46;
 }
 
-.hero-git-link{
+.hero-git-link {
     margin-top: 2.5em;
     z-index: 5;
     display: flex;
@@ -101,16 +94,16 @@ span{
     justify-content: center;
 }
 
-.main{
+.main {
     background: #222831;
 }
 
-.project-section{
+.project-section {
     background: #222831;
-    padding-top: 1.5em;
+    padding-top: 3em;
 }
 
-.section-title{
+.section-title {
     font-size: 1.25em;
     border-bottom: #FFD369 2px solid;
     width: 10%;
@@ -118,15 +111,15 @@ span{
     color: white;
 }
 
-.project-container{
+.project-container {
     width: 100%;
 }
 
-.project-container:last-child{
+.project-container:last-child {
     padding-bottom: 3em;
 }
 
-.project-item{
+.project-item {
     width: 100%;
     margin-top: 30px;
     display: flex;
@@ -135,28 +128,28 @@ span{
     justify-content: center;
 }
 
-.project-name{
+.project-name {
     font-size: 1em;
     color: white;
     margin-bottom: 0.5em;
 }
 
-.img-link{
+.img-link {
     width: 90%;
 }
 
-.project-img{
+.project-img {
     width: 100%;
     outline: #FFD369 solid 4px;
 }
 
-.project-description{
-    font-size: 0.75em;
+.project-description {
+    font-size: 1em;
     width: 85%;
     color: white;
 }
 
-.see-code{
+.see-code {
     height: 40px;
     width: 100px;
     font-size: 1em;
@@ -169,48 +162,38 @@ span{
     margin-top: 1em;
 }
 
-@media only screen and (min-width: 768px){
-
-    .svg-container{
+@media only screen and (min-width: 768px) {
+    .svg-container {
         height: 350px;
     }
-
-    svg{
+    svg {
         width: 100%;
         height: 100%;
     }
-
-    .hero-stmt{
+    .hero-stmt {
         font-size: 3.5em;
     }
-
-    .hero-stmt-container > p{
+    .hero-stmt-container>p {
         font-size: 1.5em;
     }
-
-    .git-link-btn{
+    .git-link-btn {
         width: 175px;
         height: 50px;
         font-size: 1.5em;
     }
-
-    .section-title{
+    .section-title {
         font-size: 2em;
     }
-
-    .project-name{
+    .project-name {
         font-size: 2.2em;
     }
-
-    .img-link{
+    .img-link {
         width: 60%;
     }
-
-    .project-description{
-        font-size: 1.5em;
+    .project-description {
+        font-size: 1.25em;
     }
-
-    .see-code{
+    .see-code {
         width: 175px;
         height: 75px;
         font-size: 1.5em;
@@ -218,135 +201,101 @@ span{
 }
 
 
-
-
-
-
-
 /*desktop */
-@media only screen and (min-width: 1024px)
-{
 
-.hero-info{
-    height: 100%;
-    width: 50%;
-    justify-content: center;
-}
-
-.svg-container{
-    height: 100%;
-    width: 50%;
-}
-
-
-.hero-stmt{
-    width: 100%;
-    margin-left: 30px;
-    margin-bottom: 0;
-    z-index: 5;
-    font-size: 3em;
-    font-family: nunito;
-    font-weight: bold;
-    text-align: center;
-}
-
-.hero-stmt-container > p{
-    font-size: 1.6em;
-    text-align: center;
-}
-
-
-
-.git-link-btn{
-    margin-left: 30px;
-    width: 200px;
-    height: 50px;
-    font-size: .9em;
-}
-
-.hero-page{
-    height: 100vh;
-    flex-direction: row;
-}
-
-
-.project-container{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.img-link{
-    width: 100%;
-    height: 170px;
-}
-
-.project-img{
-    height: 100%;
-}
-
-.project-name{
-    font-size: 1.25em;
-    margin: 0;
-}
-
-.project-item{
-    width: 300px;
-    height: 800px;
-    justify-content: space-evenly;
-}
-
-.project-description{
-    width: 100%;
-    font-family: nunito;
-    font-size: 1.3em;
-    height: 340px;
-}
-
-
-.git-link{
-    width: 150px;
-    height: 50px;
-    margin-top: 6em;
-}
-
-
-
-.see-code{
-    height: 50px;
-    width: 150px;
-    font-size: 0.75em;
-    background-color: #FFD369;
-    border-color: #FFD369;
-    color: #393E46;
-    font-family: nunito;
-    font-weight: bold;
-    letter-spacing: .2em;
-    margin: 0;
-}
-
-.see-code:hover{
-    cursor: pointer;
-    color: #FFD369;
-    background-color: #393E46;
-    font-weight: bold;
-}
-
-
-.section-title{
-    width: 3%;
-    font-size:1.5em;
-}
-}
-
-@media only screen and (min-width: 1200px){
-    .hero-stmt-container{
+@media only screen and (min-width: 1024px) {
+    .hero-info {
+        height: 100%;
+        width: 50%;
+        justify-content: center;
+    }
+    .svg-container {
+        height: 100%;
+        width: 50%;
+    }
+    .hero-stmt {
+        width: 100%;
+        margin-left: 30px;
+        margin-bottom: 0;
+        z-index: 5;
+        font-size: 3em;
+        font-family: nunito;
+        font-weight: bold;
         text-align: center;
     }
+    .hero-stmt-container>p {
+        font-size: 1.6em;
+        text-align: center;
+    }
+    .git-link-btn {
+        margin-left: 30px;
+        width: 200px;
+        height: 50px;
+        font-size: .9em;
+    }
+    .hero-page {
+        height: 100vh;
+        flex-direction: row;
+    }
+    .project-container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .img-link {
+        width: 350px;
+    }
+    .project-img {
+        width: 100%;
+    }
+    .project-name {
+        font-size: 1.25em;
+        margin: 0;
+    }
+    .project-item {
+        width: 300px;
+        height: 800px;
+        justify-content: space-evenly;
+    }
+    .project-description {
+        width: 100%;
+        font-family: nunito;
+        font-size: 1.3em;
+        height: 340px;
+    }
+    .git-link {
+        width: 150px;
+        height: 50px;
+        margin-top: 1em;
+    }
+    .see-code {
+        height: 50px;
+        width: 150px;
+        font-size: 0.75em;
+        background-color: #FFD369;
+        border-color: #FFD369;
+        color: #393E46;
+        font-family: nunito;
+        font-weight: bold;
+        letter-spacing: .2em;
+        margin: 0;
+    }
+    .see-code:hover {
+        cursor: pointer;
+        color: #FFD369;
+        background-color: #393E46;
+        font-weight: bold;
+    }
+    .section-title {
+        width: 3%;
+        font-size: 1.5em;
+    }
+}
 
-    .hero-stmt-container > p{
+@media only screen and (min-width: 1200px) {
+    .hero-stmt-container {
+        text-align: center;
+    }
+    .hero-stmt-container>p {
         width: 14em;
     }
 }
-
-
-

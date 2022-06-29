@@ -415,18 +415,6 @@ export default class Home extends Component {
                             </Link>
                         </div>
                         <div className="project-item">
-                            <h3 className="project-name">Petsy</h3>
-                            <Link target="_blank" className="img-link" to={"//www.dogsstuff.net/"}>
-                                <img className="project-img" loading="lazy" src={petsy} alt=""/>
-                            </Link>
-                            <p className="project-description">Petsy is a make-believe dog store. It sells different brands of dog food and dog toys. When you click the 'add to cart' button, it adds it to the cart and if you want more than just one of that item, you can adjust the quantity in the cart. The total should update to adding items and adjustments to the quantities. Finally, when you click the 'checkout' button, an alert will pop up and let you know your "purchase" went through and it will clear the cart.</p>
-                            <div className="btn-container">
-                                <Link className="git-link" target="_blank" to={"//github.com/Saltysam101/petsy"}>
-                                    <button className="see-code">Code</button>
-                                </Link>
-                            </div>
-                        </div>
-                        <div className="project-item">
                             <h3 className="project-name">ChatMe</h3>
                             <Link target="_blank" className="img-link" to={"//chatmeapp.net/"}>
                                 <img className="project-img" loading="lazy" src={chatme} alt=""/>

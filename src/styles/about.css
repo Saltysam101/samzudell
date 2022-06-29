@@ -1,49 +1,47 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 p,
-h4{
+h4 {
     font-family: nunito;
 }
 
-.about-hero{
+.about-hero {
     height: 44vh;
     display: flex;
     flex-direction: column;
     background: #393E46;
 }
 
-.about-hero > img{
+.about-hero>img {
     margin: auto;
 }
 
-.about-section-title{
+.about-section-title {
     display: none;
 }
 
-.about-hero-stmt{
+.about-hero-stmt {
     margin: 1.5em;
     font-size: 1.2em;
 }
 
-.me{
-    height: 200px;
-    width: 100%;
+.me {
+    width: 250px;
     background-color: black;
     margin: 0 auto;
 }
 
-.title{
+.title {
     color: #FFD369;
     font-size: 1.8em;
     margin-bottom: 0.5em;
 }
 
-.about-me{
+.about-me {
     padding: 1.5em;
     padding-bottom: 5em;
     text-align: center;
@@ -51,81 +49,63 @@ h4{
     height: 66vh;
 }
 
-.about-me > p{
+.about-me>p {
     color: white;
 }
 
-.unrelated-facts{
+.unrelated-facts {
     margin: 20px 10px 20px 10px;
 }
 
-@media only screen and (min-width: 768px){
-    .me{
-        width: 75%;
-        height: 75%;
+@media only screen and (min-width: 768px) {
+    .me {
+        width: 350px;
     }
-
-    .title{
+    .title {
         font-size: 2.4em;
     }
-
-    .about-me{
+    .about-me {
         height: 60vh;
+        padding-top: 6rem;
     }
-
-    .about-me > p{
+    .about-me>p {
         width: 25em;
         margin: 0 auto;
         font-size: 1.3em;
     }
 }
 
-
-
-
-
-
-@media only screen and (min-width: 1024px){
-    .me{
-        width: 50%;
-        height: 60%;
+@media only screen and (min-width: 1024px) {
+    .me {
+        width: 375px;
     }
-
-    .about-hero{
+    .about-hero {
         height: 50vh;
         align-items: center;
         margin: 0;
     }
-
-    .about-section-title{
+    .about-section-title {
         margin-left: 30px;
         font-size: 1.5em;
     }
-
-    .about-hero-stmt{
+    .about-hero-stmt {
         font-size: 1.6em;
         margin-left: 30px;
         width: 40%;
     }
-
-    
-
-    .title{
+    .title {
         font-size: 1.5em;
     }
-
-    .unrelated-facts{
+    .unrelated-facts {
         margin: 50px 30px;
     }
-
-    p{
+    p {
         font-size: 1.2em;
     }
 }
 
-@media only screen and (min-width: 1300px){
-    .me{
-        width: 650px;
-        height: 270px;
+@media only screen and (min-width: 1300px) {
+    .me {
+        width: 400px;
     }
 }
