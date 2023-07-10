@@ -3,8 +3,8 @@ import '../styles/home.css';
 //import image from '../Asset/vector-dev.svg';
 import icon from '../Assets/iconfinder_github-social-media_765246(1).jpg';
 import { Link } from 'react-router-dom';
-import currentWeather from '../Assets/currentweather.jpg';
-import petsy from '../Assets/petsy.jpg';
+import poke_thumbnail from '../Assets/poke_thumbnail.jpg';
+import tic_tac_toe from '../Assets/tic-tac-toe_thumbnail.jpg';
 import chatme from '../Assets/chatme.jpg';
 
 export default class Home extends Component {
@@ -403,24 +403,24 @@ export default class Home extends Component {
                     <h2 className="section-title">Projects</h2>
                     <div className="project-container">
                         <div className="project-item">
-                            <h3 className="project-name">Current Weather</h3>
-                            <Link target="_blank" className="img-link" to={"//www.currentweathertemp.com/"}>
-                                <img className="project-img" loading="eager" src={currentWeather} alt=""/>
+                            <h3 className="project-name">Tic-Tac-Toe</h3>
+                            <Link target="_blank" className="img-link" to={"//effervescent-lolly-e378fe.netlify.app"}>
+                                <img className="project-img" loading="eager" src={tic_tac_toe} alt=""/>
                             </Link>
                             <p className="project-description">
-                                    This is a basic weather website. It will ask for permission to track your location and then based on that it will tell you some basic weather info for that location. The site will also give you a 3 day forecast that is updated every 3 hours.
+                                    This is a tic-tac-toe game. There is a game dialogue that tells the players who's turn it is and whether the game is won or a draw. There's a button to allow you to restart the game. Have Fun!
                             </p>
-                            <Link className="git-link" target="_blank" to={"//github.com/Saltysam101/weather-js"}>
+                            <Link className="git-link" target="_blank" to={"//github.com/Saltysam101/tic-tac-toe"}>
                                 <button className="see-code">Code</button>
                             </Link>
                         </div>
                         <div className="project-item">
-                            <h3 className="project-name">ChatMe</h3>
-                            <Link target="_blank" className="img-link" to={"//chatmeapp.net/"}>
-                                <img className="project-img" loading="lazy" src={chatme} alt=""/>
+                            <h3 className="project-name">Pokedex</h3>
+                            <Link target="_blank" className="img-link" to={"//musical-cobbler-e6ccd9.netlify.app"}>
+                                <img className="project-img" loading="lazy" src={poke_thumbnail} alt=""/>
                             </Link>
-                            <p className="project-description">ChatMe is a basic realtime chat site. You can create an account and just chat with anyone who is on there. There are no seperate groups for different chats, it's all just one chat.</p>
-                                <Link className="git-link" target="_blank" to={"//github.com/Saltysam101/ChatMe"}>
+                            <p className="project-description">This is a catelog of pokemon that is fetched from the pokemonGo api. It is built with react and you can search pokemon by different filters or by typing their name. Each pokemon also have their own stats page.</p>
+                                <Link className="git-link" target="_blank" to={"//github.com/Saltysam101/react-pokedex"}>
                                 <button className="see-code">Code</button>
                             </Link>
                         </div>
